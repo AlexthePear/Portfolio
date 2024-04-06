@@ -1,0 +1,13 @@
+.hero {
+  display: flex;
+}
+
+.name {
+  color: aqua;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.hero-info {
+  align-items: center;
+}
