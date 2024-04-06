@@ -4,9 +4,11 @@
 }
 
 .name {
-  background: linear-gradient(120deg, var(--primary), var(--accent));
-  align-items: center;
-  justify-content: flex-start;
+  background: linear-gradient(120deg, #00DBD4, #00DB3F);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
 }
 
 .hero-info {
