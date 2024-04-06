@@ -4,8 +4,9 @@ import Hero from "@/components/Hero";
 
 export default function Home() {
   return (
-    <main className={styles.main}>
-      <Hero />
-    </main>
+  <main className={styles.main}>
+     <Hero/>
+  
+  </main>
   );
 }
