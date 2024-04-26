@@ -22,6 +22,6 @@ export default function RootLayout({
         <a>Contact</a>
       </nav>
       <body className={inter.className}>{children}</body>
-    <html/>
+    </html>
   );
 }
