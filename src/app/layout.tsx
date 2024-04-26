@@ -16,12 +16,15 @@ export default function RootLayout({
 }>) {
   return (
     <html>
+      
+      <body className={inter.className}>
       <nav>
         <a>About</a>
         <a>Projects</a>
         <a>Contact</a>
       </nav>
-      <body className={inter.className}>{children}</body>
+        {children}
+        </body>
     </html>
   );
 }
